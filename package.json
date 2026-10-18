@@ -1,0 +1,19 @@
+{
+  "name": "nightscreen",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0",
+    "vite": "^7.1.7"
+  },
+  "devDependencies": {
+    "wrangler": "^4.38.0"
+  }
+}
